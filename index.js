@@ -5,12 +5,12 @@
 </head>
 <body>
 
-    <button onclick ="show message ()">click</button>
+    <button onclick="showmessage()">Click</button>
 
     <script>
-         function showmessage() {
+        function showmessage() {
             alert("Button clicked!");
-        };
+        }
     </script>
 
 </body>
