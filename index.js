@@ -5,10 +5,10 @@
 </head>
 <body>
 
-    <button id="btn">Click Me</button>
+    <button onclick ="show message ()">click</button>
 
     <script>
-        document.getElementById("btn").onclick = function() {
+         function showmessage() {
             alert("Button clicked!");
         };
     </script>
